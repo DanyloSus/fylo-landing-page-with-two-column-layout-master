@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  font-family: "Raleway", sans-serif;
+}
+
+h1,
+h2,
+button,
+a {
+  font-family: "Open Sans", sans-serif;
+}/*# sourceMappingURL=index.css.map */
