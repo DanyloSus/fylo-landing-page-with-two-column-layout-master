@@ -21,11 +21,11 @@ h1 {
 header,
 section,
 footer {
-  @apply px-20;
+  @apply px-20 lg:px-6;
 }
 
 section {
-  @apply px-20 grid grid-cols-2 grid-rows-1 items-center;
+  @apply grid grid-cols-2 grid-rows-1 items-center lg:flex flex-col-reverse;
 }
 
 footer p {

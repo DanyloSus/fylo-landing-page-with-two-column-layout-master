@@ -1,8 +1,8 @@
 const Footer = () => {
   return (
-    <footer className="bg-very-dark-blue text-light-grayish-blue py-[110px]">
+    <footer className="bg-very-dark-blue text-light-grayish-blue py-[110px] lg:py-16">
       <img src="./logo.png" alt="logo" className="w-[176px]" />
-      <div className="flex justify-between items-start mt-10">
+      <div className="flex justify-between items-start mt-10 lg:flex-col lg:gap-5">
         <div>
           <p>
             <img src="./icon-phone.svg" alt="icon phone" /> Phone:
@@ -23,7 +23,7 @@ const Footer = () => {
           <a href="#">Terms</a>
           <a href="#">Privacy</a>
         </div>
-        <div className="flex gap-5 flex-row">
+        <div className="flex gap-5 flex-row lg:mx-auto">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             height="1em"

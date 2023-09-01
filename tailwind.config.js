@@ -13,6 +13,9 @@ export default {
         "light-grayish-blue": "hsl(240, 75%, 98%)",
         "light-gray": "hsl(0, 0%, 75%)",
       },
+      screens: {
+        lg: { max: "1024px" },
+      },
     },
   },
   plugins: [],
