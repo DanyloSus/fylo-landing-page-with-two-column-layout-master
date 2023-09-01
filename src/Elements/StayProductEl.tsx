@@ -1,7 +1,7 @@
 const StayProductEl = () => {
   return (
     <section className="py-[50px]">
-      <div className="flex flex-col gap-3 items-start">
+      <div className="flex flex-col gap-3 items-start reveal">
         <h1 className="lg:text-lg lg:mx-auto lg:mt-10">
           Stay productive, wherever you are
         </h1>
@@ -49,7 +49,7 @@ const StayProductEl = () => {
           </div>
         </div>
       </div>
-      <img src="./illustration-2.svg" alt="illustration 2" />
+      <img src="./illustration-2.svg" alt="illustration 2" className="reveal" />
     </section>
   );
 };

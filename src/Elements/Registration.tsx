@@ -2,7 +2,7 @@ import * as Form from "@radix-ui/react-form";
 
 const Registration = () => {
   return (
-    <section className="py-[100px] lg:flex-col lg:gap-5">
+    <section className="py-[100px] lg:flex-col lg:gap-5 reveal">
       <div className="max-w-[514px] flex flex-col gap-3 lg:text-center">
         <h1 className="lg:text-xl">Get early access today</h1>
         <p className="text-[17px] lg:text-[16.5px]">

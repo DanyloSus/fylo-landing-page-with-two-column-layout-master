@@ -3,7 +3,7 @@ import * as Form from "@radix-ui/react-form";
 const Intro = () => {
   return (
     <section className="my-[100px]">
-      <div className="flex flex-col gap-3 lg:text-center lg:mt-10">
+      <div className="flex flex-col gap-3 lg:text-center lg:mt-10 reveal">
         <h1 className="lg:text-2xl">
           All your files in one secure location, accessible anywhere.
         </h1>
@@ -40,7 +40,7 @@ const Intro = () => {
           </Form.Submit>
         </Form.Root>
       </div>
-      <img src="./illustration-1.svg" alt="illustration 1" />
+      <img src="./illustration-1.svg" alt="illustration 1" className="reveal" />
     </section>
   );
 };

@@ -39,4 +39,23 @@ footer svg {
 }
 footer div > div {
   @apply flex flex-col gap-3;
+}
+
+.reveal {
+  transform: translateX(-150px);
+  opacity: 0;
+  transition: 1s all ease-in-out;
+}
+.reveal.active {
+  transform: translateX(0);
+  opacity: 1;
+}
+.reveal:nth-child(2n) {
+  transform: translateX(150px);
+  opacity: 0;
+  transition: 1s all ease-in-out;
+}
+.reveal:nth-child(2n).active {
+  transform: translateX(0);
+  opacity: 1;
 }/*# sourceMappingURL=index.css.map */
