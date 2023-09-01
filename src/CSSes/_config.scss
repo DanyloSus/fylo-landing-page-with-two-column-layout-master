@@ -6,6 +6,7 @@
 
 :root {
   font-family: "Raleway", sans-serif;
+  color: hsl(243, 87%, 12%);
 }
 
 h1,
@@ -13,4 +14,18 @@ h2,
 button,
 a {
   font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  @apply font-bold text-[40px];
+}
+
+header,
+section,
+footer {
+  @apply px-20;
+}
+
+section {
+  @apply px-20 grid grid-cols-2 grid-rows-1 items-center;
 }

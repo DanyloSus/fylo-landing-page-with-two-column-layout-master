@@ -1,0 +1,14 @@
+footer {
+  p {
+    @apply flex items-center gap-5;
+  }
+  a {
+    @apply text-light-grayish-blue transition-colors hover:text-bright-blue;
+  }
+  svg {
+    @apply fill-white w-[30px] h-[30px] border border-white rounded-full p-1 hover:fill-bright-blue transition-colors hover:border-bright-blue cursor-pointer;
+  }
+  div > div {
+    @apply flex flex-col gap-3;
+  }
+}
